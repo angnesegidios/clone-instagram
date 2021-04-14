@@ -1,3 +1,4 @@
+<!-- Feito por Egidio, referente ao curso "Recriando a página inicial do Instagram" DIO, instrutora: Gabriela Pinheiro-->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -8,39 +9,38 @@
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <div class="instagram-wrapper">
+    <div class="instagram-wrapper"> <!-- wrapper class é uma classe que "embrulha", envolve, outros objetos afim de adicionar algum atributo ao conjunto-->
         <div class="instagram-phone">
-            <img src="img/inst-cel-oidige.png" alt="Celular">
+            <img src="img/inst-cel-oidige.png" alt="Celular">             
         </div>
-    </div>
-    <div class="instagram continue">
-        <div class="group"> <!-- esse grupo1 tem imagem e texto , com fundo branco-->
-            <img src="img/instagram-logo.png" alt="instagram logo" class="instagram-logo">
-            <!--1º quadrado, onde fica a logo-->
-            <div class="profile-photo">
-                <img src="img/perfil.png" alt="Foto de Perfil">
-                <!-- foto redonda do perfil-->
+        <div class="instagram-continue"> <!-- continue é do grupo1 que contem o botão de continuar logado na conta atual-->
+            <div class="group"> <!-- esse grupo1 tem imagem e texto , com fundo branco-->
+                <img src="img/instagram-logo.png" alt="instagram logo" class="instagram-logo">
+                <!--1º quadrado, onde fica a logo-->
+                <div class="profile-photo">
+                    <img src="img/perfil.png" alt="Foto de Perfil">
+                    <!-- foto redonda do perfil-->
+                </div>
+                <a href="#" class=" instagram-login"> Continue com nomedaconta2021</a>
+                <a href="#" class=" instagram-logout"> Remover conta</a>
             </div>
-            <a href="#" class=" instagram-login"> Continue com nomedaconta2021</a>
-            <a href="#" class=" instagram-logout"> Remover conta</a>
-        </div>
-        <div class="group"> <!-- esse grupo2 só tem texto , com fundo branco-->
-            <p class="not-account">Não é nomedaconta2021?</p>
-            <p class="notaccount">
-                <span class="link-blue">Alternar contas </span>
-                ou 
-                <span class="link-blue">Inscreva-se</span>
-            </p>
-            
-        </div>
-        <div class="get-the-app">
-            <p class="get-app">Baixe o aplicativo</p>
-            <div class="download">
-                <a href="#" class="app-download"></a>
-                <a href="#" class="app-download"></a>
-
+            <div class="group"> <!-- esse grupo2 só tem texto , com fundo branco-->
+                <p class="not-account">Não é nomedaconta2021?</p>
+                <p class="not-account">
+                    <span class="link-blue">Alternar contas </span>
+                    ou <!-- <span> é um conteiner generico em linha para conteúdo fraseado, que não representa nada por natureza. Ele pode ser usado para agrupar elementos para fins de estilo-->
+                    <span class="link-blue">Inscreva-se</span>
+                </p>                
+            </div>
+            <div class="get-the-app">
+                <p class="get-app">Baixe o aplicativo</p>
+                <div class="download">
+                    <a href="#" class="app-download"></a>
+                    <!--app-download terá linkado as duas imagens de botão da apple e google para baixar o aplicativo. -->
+                    <a href="#" class="app-download"></a>    
+                </div>
             </div>
         </div>
-    </div>
+    </div>   
 </body>
 </html>
